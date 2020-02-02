@@ -1,0 +1,61 @@
+a {
+    color: #368281;
+}
+
+body {
+    background-color: #FAF0E6;
+}    
+
+h1 {
+    color: #368281;
+    text-align: center;
+    padding-top: 2rem;
+}    
+
+img {
+    border-radius: 5rem;
+}
+
+li {   
+    flex: 1;
+    text-align: center;
+}        
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}            
+
+div.box {
+    background-color: #368281;
+    border: 1px solid black;
+    border-radius: 1rem;
+    color: white;
+    margin: auto;
+    padding: 1rem;
+    width: 275px;
+}
+
+div.num {
+    margin: auto;
+    margin-bottom:1rem;
+    padding:.5rem;
+    width: 15px;
+}        
+
+div.selected > a {
+    color: white;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.selected {
+    background-color: #368281;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 0 auto;
+}
